@@ -1,0 +1,132 @@
+:root {
+    --bgColor :  rgb(0, 242, 133);
+
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrap 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:100vh;
+    background-color: var(--bgColor);
+}
+
+.box
+{
+    width: 400px;
+    height: auto;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:10px ;
+
+}
+
+.heading
+{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(0, 212, 113);
+    /* border:1px solid white ; */
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mail, .pass
+{
+    height: 2.4rem;
+    background: transparent;
+    text-align: center;
+    border-left: none;
+    border-width: medium;
+    border: lightgreen 2px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.icon
+{
+    
+    background-color:var(--bgColor) ;
+    width: 2rem;
+    height: 2.4rem;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    position: relative;
+    padding: 0 2px;
+    top: 15px;
+    left:5px;
+    
+}
+.mail 
+{
+    margin: 2rem 0  1rem 0;
+    font-weight: lighter;
+    font-size: smaller;
+
+
+}
+
+
+.pass {
+    margin: 0 0 7px 0;
+}
+
+.forget
+{
+    position: relative;
+    left:-29px;
+    margin: 0 0 1rem 0;
+    font-size: small;
+}
+
+.link
+{
+    text-decoration: none;
+    color:var(--bgColor);
+}
+
+.link:hover
+{
+    text-decoration: underline;
+}
+
+.logIn {
+    color:white;
+    width: 180px;
+    padding: 5px 0;
+    font-size: medium;
+    background-color: var(--bgColor);
+    border: 2px solid rgba(114, 114, 114, 0.401);
+}
+
+.logIn:hover{
+    background: #000;
+    color: var(--bgColor);
+    cursor: pointer;
+    border: 2px solid lightgreen;
+
+}
+
+.signUpPara
+{
+    font-size: small;
+    margin: 1rem 0 2rem 0;
+}
