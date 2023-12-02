@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #c76722;
+    height: 3rem;
+    color: white;
+}
+
+.heading
+{
+    padding:0 0 0 3rem;
+    font-size: x-large;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu-list
+{
+    display: flex;
+}
+
+.menu-list li{
+    margin: 0 2rem 0 0;
+    list-style: none;
+    font-weight: bold;
+}
+
+.menu-list li:hover{
+    text-decoration: underline;
+    color: rgb(214, 214, 214);
+}
+
+.hero
+{
+    width: 100%;
+    height:93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731_1280.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.wrap
+{
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    text-align: center;
+}
+
+.heroText
+{
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    margin: 0 0 1rem 0;
+}
+
+.btn-wrap
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn{
+    width: 150px;
+    height: 2.5rem;
+    margin: 1rem 0 0 1rem;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.learnMore
+{
+    background: transparent;
+    color: white;
+}
+
+.learnMore:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.sub {
+    background: white;
+}
