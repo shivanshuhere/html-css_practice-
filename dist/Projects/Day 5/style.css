@@ -37,6 +37,7 @@
 .menu-list li:hover{
     text-decoration: underline;
     color: rgb(214, 214, 214);
+    cursor:pointer;
 }
 
 .hero
