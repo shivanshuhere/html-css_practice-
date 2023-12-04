@@ -1,0 +1,18 @@
+:root{
+  --clr-rose:#fff;
+}
+
+*::before, *::after, *{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  font-size: xx-larger;
+  font-family: sans-serif;
+  color: rgb(239, 239, 239);
+  margin-bottom: 4rem;
+  text-align: center;
+  margin-right: 2rem;
+}
